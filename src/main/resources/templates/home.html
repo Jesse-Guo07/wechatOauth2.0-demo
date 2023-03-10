@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name="viewport" content="width=device-width, initial">
+</head>
+<body>
+<div style="font-size: 35px; text-align: center">
+    <div>登录成功</div>
+    <div th:object="${user}">
+        <img th:src="*{headimgurl}" width="50" height="50">
+        <p th:text="*{nickname}"></p>
+    </div>
+
+</div>
+
+</body>
+</html>
