@@ -12,8 +12,8 @@ spring:
 
 oauth:
   wx:
-    appid: wxd24fa8497766868c
-    appsecret: 8df1088b9d7a3ef17c29a07d84a9fad5
+    appid: AppID
+    appsecret: AppSecret
 
   callback:
-    http: http://192.168.0.111:8088/wxcallback
+    http: http://"IP:port"/wxcallback
